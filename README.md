@@ -110,3 +110,8 @@ Returns a simple API health status.
 ## Detection behavior
 
 The local detector normalizes Unicode, checks weighted signal families for instruction override, system-prompt extraction, role manipulation, jailbreak language, sensitive information, indirect injection, obfuscation, and social engineering, and attempts to inspect plausible Base64 text. It uses deterministic patterns and heuristics; it does not use a trained ML model or external AI service. Scores are capped at 100. Detected attack instructions are blocked, sensitive values are redacted when enabled, and other content is allowed. Review false positives and false negatives before production use.
+
+## My Fork
+
+Maintained by Pratham Seetharam Poojary.
+Forked from masseehamh/workex-llm-security-gateway.
